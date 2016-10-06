@@ -1,0 +1,94 @@
+<html>
+<head>
+<h1><i><center>SURYANAMASKAR</center></i></h1>
+<script languauge="javascript">
+function show_image(src,width,height)
+{
+var img=document.createElement("img");
+img.src=src;
+img.width="200";
+img.height="300";
+document.body.appendChild(img);
+}
+function f1()
+{
+window.setTimeout("show_image('1.jpg',600,400)",1200);
+window.setTimeout("f2()",1200);
+
+}
+function f2(){
+window.setTimeout("show_image('2.jpg',600,400)",1200);
+window.setTimeout("f3()",1200);
+}
+function f3()
+{
+window.setTimeout("show_image('3.jpg',600,400)",1200);
+window.setTimeout("f4()",1200);
+}
+function f4(){
+window.setTimeout("show_image('4.jpg',600,400)",1200);
+
+window.setTimeout("f5()",1200);
+}
+function f5()
+{
+
+window.setTimeout("show_image('5.jpg',600,400)",1200);
+window.setTimeout("f6()",1200);
+}
+function f6(){
+
+window.setTimeout("show_image('6.jpg',600,400)",1200);
+window.setTimeout("f7()",1200);
+}
+function f7()
+{
+
+window.setTimeout("show_image('7.jpg',600,400)",1200);
+window.setTimeout("f8()",1200);
+}
+function f8()
+{
+
+window.setTimeout("show_image('8.jpg',600,400)",1200);
+window.setTimeout("f9()",1200);
+}
+function f9()
+{
+
+window.setTimeout("show_image('9.jpg',600,400)",1200);
+window.setTimeout("f10()",1200);
+}
+function f10()
+{
+
+window.setTimeout("show_image('10.jpg',600,400)",1200);
+window.setTimeout("f11()",1200);
+}
+function f11()
+{
+
+window.setTimeout("show_image('11.jpg',600,400)",1200);
+window.setTimeout("f12()",1200);
+}
+function f12()
+{
+
+window.setTimeout("show_image('12.jpg',600,400)",1200);
+
+}
+function benefits()
+{
+ window.location.href="info.html"
+}
+</script>
+</head>
+<body background="b5.jpg">
+<form>
+<center>
+<input type="button" name="b1" value="Show" onMouseOver="f1()">
+<input type="button" name="b2" value="Benefits" onClick="benefits()">
+</center>
+</form>
+</body>
+</html>
